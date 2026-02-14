@@ -11,5 +11,6 @@ This model investigates the evolution of a defensive trait through mutations in 
 
 # 2. Lotka-Volterra model
 
-The Lotka-Volterra model relates to the population dynamics of a predator species and a prey species, and is represented by the first order differential equations $$\frac{dx}{dt}= \alphax-\betaxy$$ $$\frac{dy}{dt}=-\gammay+\deltaxy$$ for $x,y$ the populations of prey and predators and $\alpha, \beta, \gamma, \delta$ parameters representing prey growth rate, predation rate, predator death rate and reproduction rate respectively.
+The Lotka-Volterra model relates to the population dynamics of a predator species and a prey species, and is represented by the first order differential equations $$\frac{dx}{dt}= \alpha x-\beta xy$$ $$\frac{dy}{dt}=-\gamma y+\delta xy$$ for $x,y$ the populations of prey and predators and $\alpha, \beta, \gamma, \delta$ parameters representing prey growth rate, predation rate, predator death rate and reproduction rate respectively.
+
 
