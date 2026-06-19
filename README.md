@@ -16,3 +16,5 @@ $$\frac{dy}{dt}=-\gamma y+\delta xy$$
 for $x,y$ the populations of prey and predators and $\alpha, \beta, \gamma, \delta$ parameters representing prey growth rate, predation rate, predator death rate and reproduction rate respectively.
 
 The graph shows that the populations of predators and prey tend to oscillate - as the prey population grows, the growth rate of the predator population increases (there is plenty of food available) and therefore the predator population grows as well. This increased predator population decreases the prey population, which reduces the availability of food and therefore decreases the predator population as there is no longer enough prey to sustain a large population. At a low predator population, the prey population then rebounds - repeating the cycle.
+
+For $x'=x(\alpha (x- \beta y)$ and $y' = y(-\gamma + \delta x)$ the fixed points are at $(0,0)$ and at $(\frac{\gamma}{\delta}, \frac{\alpha}{\beta})$
