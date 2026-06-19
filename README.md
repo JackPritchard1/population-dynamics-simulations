@@ -17,7 +17,7 @@ for $x,y$ the populations of prey and predators and $\alpha, \beta, \gamma, \del
 
 The graph shows that the populations of predators and prey tend to oscillate - as the prey population grows, the growth rate of the predator population increases and therefore the predator population grows as well. This increased predator population decreases the prey population, which reduces the availability of food and therefore decreases the predator population as there is no longer enough prey to sustain a large population. At a low predator population, the prey population then rebounds - repeating the cycle.
 
-For $x'=x(\alpha (x- \beta y)$ and $y' = y(-\gamma + \delta x)$ the fixed points are at $(0,0)$ and at $(\frac{\gamma}{\delta}, \frac{\alpha}{\beta})$. With the parameters I've used this is x=30, y=20.
+For $x'=x(\alpha - \beta y)$ and $y' = y(-\gamma + \delta x)$ the fixed points are at $(0,0)$ and at $(\frac{\gamma}{\delta}, \frac{\alpha}{\beta})$. With the parameters I've used this is x=30, y=20.
 
 Using Euler's method for plotting introduced an error over time. For this system, the fixed point (not the origin) is a centre and therefore trajectories follow closed loops, however in the phase portrait with Euler's we see this slowly diverging. Using RK4 to plot gives much better results and the phase portrait reflects this. Additionally, the value $V = \delta x - \gamma log(x) + \beta y - \alpha log(y)$ should be constant - this is much more constant with RK4 than Euler's.
 
